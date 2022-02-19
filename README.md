@@ -1,10 +1,6 @@
 # GCP
 
 
-## About
-This is a reposity of basic Google Cloud commands and to get yourself familiar with different Google Cloud Concepts and entry projects.
-
-
 </br>
 
 ## Setting gcloud CLI Environment and Variables
