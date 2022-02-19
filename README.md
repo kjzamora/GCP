@@ -1,5 +1,25 @@
 # GCP
 
+## Table of Contents
+- [Table of Contents](#table-of-contents)
+  * [Setting gcloud CLI Environment and Variables](#setting-gcloud-cli-environment-and-variables)
+    + [To define a variable named "MY_VARIABLE" within gcloud CLI:](#to-define-a-variable-named--my-variable--within-gcloud-cli-)
+    + [To verify that variable was set:](#to-verify-that-variable-was-set-)
+    + [To define the zone your instances will reside in:](#to-define-the-zone-your-instances-will-reside-in-)
+    + [To define the region:](#to-define-the-region-)
+  * [Creating a Single Instance](#creating-a-single-instance)
+    + [The following command assumes you have a zone defined in the gcloud CLI:](#the-following-command-assumes-you-have-a-zone-defined-in-the-gcloud-cli-)
+    + [If you would like to run a set of commands to say install something as soon as the instance is running you can add a startup script:](#if-you-would-like-to-run-a-set-of-commands-to-say-install-something-as-soon-as-the-instance-is-running-you-can-add-a-startup-script-)
+  * [Buckets](#buckets)
+    + [Creating a Bucket:](#creating-a-bucket-)
+    + [Upload to a Bucket:](#upload-to-a-bucket-)
+    + [Delete from a Bucket:](#delete-from-a-bucket-)
+    + [Copy from one folder to another within a Bucket:](#copy-from-one-folder-to-another-within-a-bucket-)
+    + [List Contents of the Bucket:](#list-contents-of-the-bucket-)
+    + [Make an Object in your Bucket Public:](#make-an-object-in-your-bucket-public-)
+    + [Remove Access from an Object in your Bucket:](#remove-access-from-an-object-in-your-bucket-)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
 </br>
 
