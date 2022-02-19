@@ -22,6 +22,8 @@
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
 </br>
+</br>
+</br>
 
 ## Setting gcloud CLI Environment and Variables
 
@@ -46,6 +48,8 @@ gcloud config set compute/region $REGION
 
 
 </br>
+</br>
+</br>
 
 ## Creating a Single Instance
 ### The following command assumes you have a zone defined in the gcloud CLI:
@@ -59,6 +63,8 @@ gcloud compute instances create $INSTANCE_NAME --machine-type $MACHINE_TYPE --im
 ```
 
 
+</br>
+</br>
 </br>
 
 ## Buckets
